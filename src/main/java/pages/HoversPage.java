@@ -39,6 +39,8 @@ public class FigureCaption
         this.caption = caption;
     }
 
+    //methods used for assertion in Test Classes.
+    //used (caption var) as a top of a DOM to access its children elements.
     public boolean isCaptionDisplayed()
     {
         return caption.isDisplayed();
@@ -46,6 +48,7 @@ public class FigureCaption
     public String getTitle()
     {
         return caption.findElement(header).getText();
+
     }
 
     public String getLink()
@@ -62,6 +65,3 @@ public class FigureCaption
 
 }
 
-/* Another Approach to access figure Index -> more clear */
-//actions.moveToElement(driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/img")));
-//String xpathIndex = String.format("//*[@id='content']/div/div[%d]/img", index);

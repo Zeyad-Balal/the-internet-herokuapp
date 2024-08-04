@@ -19,14 +19,5 @@ public class BaseTests {
 
     }
 
-    /*@AfterClass
-    public void tearDown()
-    {
-        driver.quit();
-    }
-    public static void main (String [] args){
-        BaseTests baseTests = new BaseTests();
-        baseTests.setUp();
-    }*/
 
 }
