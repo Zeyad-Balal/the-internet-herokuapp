@@ -50,6 +50,12 @@ public class HomePage {
         return new HoversPage(driver);
     }
 
+    public KeyPressesPage clikcKeyPresses()
+    {
+        clickLink("Key Presses");
+        return new KeyPressesPage(driver);
+    }
+
 
 
 
