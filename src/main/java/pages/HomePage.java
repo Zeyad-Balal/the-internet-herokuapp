@@ -62,6 +62,12 @@ public class HomePage {
         return new HorizontalSliderPage(driver);
     }
 
+    public EntryAdPage clickEntryAd()
+    {
+        clickLink("Entry Ad");
+        return new EntryAdPage(driver);
+    }
+
 
 
 
