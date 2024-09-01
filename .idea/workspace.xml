@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="86946db5-b532-4143-8247-8730513cc650" name="Changes" comment="Message2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entryads/EntryAdsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entryads/EntryAdsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadTests.testFileUpload">
-    <configuration name="AlertsTests.confirmAlertTest_accept" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="confirmAlertTest_accept" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.EntryAdsTests.testCloseButton">
     <configuration name="AlertsTests.confirmAlertTest_dismiss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -80,24 +64,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertsTests.jsAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="jsAlertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AlertsTests.promptAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -109,6 +75,41 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
       <option name="METHOD_NAME" value="promptAlertTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntryAdsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entryads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entryads" />
+      <option name="MAIN_CLASS_NAME" value="entryads.EntryAdsTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntryAdsTests.testCloseButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entryads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="entryads" />
+      <option name="MAIN_CLASS_NAME" value="entryads.EntryAdsTests" />
+      <option name="METHOD_NAME" value="testCloseButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EntryAdsTests.testCloseButton" />
+        <item itemvalue="TestNG.EntryAdsTests" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
         <item itemvalue="TestNG.AlertsTests.promptAlertTest" />
         <item itemvalue="TestNG.AlertsTests.confirmAlertTest_dismiss" />
-        <item itemvalue="TestNG.AlertsTests.confirmAlertTest_accept" />
-        <item itemvalue="TestNG.AlertsTests.jsAlertTest" />
       </list>
     </recent_temporary>
   </component>
