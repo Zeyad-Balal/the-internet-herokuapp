@@ -35,18 +35,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.EntryAdsTests.testCloseButton">
-    <configuration name="EntryAdsTests.testCloseButton" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AlertsTests.promptAlertTest">
+    <configuration name="AlertsTests.acceptAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entryads.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entryads" />
-      <option name="MAIN_CLASS_NAME" value="entryads.EntryAdsTests" />
-      <option name="METHOD_NAME" value="testCloseButton" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="acceptAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -54,17 +54,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HorizontalSliderTest.testSlideToWholeNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTests.confirmAlertTest_accept" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="horizontalSlider.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="horizontalSlider" />
-      <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTest" />
-      <option name="METHOD_NAME" value="testSlideToWholeNumber" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="confirmAlertTest_accept" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -72,17 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoversTests.testUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTests.confirmAlertTest_dismiss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hovers.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hovers" />
-      <option name="MAIN_CLASS_NAME" value="hovers.HoversTests" />
-      <option name="METHOD_NAME" value="testUser1" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="confirmAlertTest_dismiss" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,17 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTest.testBackSpace" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTests.jsAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keypresses.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="keypresses" />
-      <option name="MAIN_CLASS_NAME" value="keypresses.KeyPressesTest" />
-      <option name="METHOD_NAME" value="testBackSpace" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="jsAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,17 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressesTest.testPi" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTests.promptAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keypresses.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="keypresses" />
-      <option name="MAIN_CLASS_NAME" value="keypresses.KeyPressesTest" />
-      <option name="METHOD_NAME" value="testPi" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="promptAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EntryAdsTests.testCloseButton" />
-        <item itemvalue="TestNG.HorizontalSliderTest.testSlideToWholeNumber" />
-        <item itemvalue="TestNG.KeyPressesTest.testPi" />
-        <item itemvalue="TestNG.KeyPressesTest.testBackSpace" />
-        <item itemvalue="TestNG.HoversTests.testUser1" />
+        <item itemvalue="TestNG.AlertsTests.promptAlertTest" />
+        <item itemvalue="TestNG.AlertsTests.confirmAlertTest_dismiss" />
+        <item itemvalue="TestNG.AlertsTests.confirmAlertTest_accept" />
+        <item itemvalue="TestNG.AlertsTests.jsAlertTest" />
+        <item itemvalue="TestNG.AlertsTests.acceptAlertTest" />
       </list>
     </recent_temporary>
   </component>

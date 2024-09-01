@@ -68,6 +68,12 @@ public class HomePage {
         return new EntryAdPage(driver);
     }
 
+    public JavaScriptAlertsPage clickJavaScriptAlerts()
+    {
+        clickLink("JavaScript Alerts");
+        return new JavaScriptAlertsPage(driver);
+    }
+
 
 
 
