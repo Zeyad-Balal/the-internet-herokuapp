@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTests.testContextMenu (1)">
+  <component name="RunManager" selected="TestNG.WaitTests">
     <configuration name="ContextMenuTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -97,16 +97,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryAdsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entryads.*" />
+          <option name="PATTERN" value="dynamicLoading_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entryads" />
-      <option name="MAIN_CLASS_NAME" value="entryads.EntryAdsTests" />
+      <option name="PACKAGE_NAME" value="dynamicLoading_waits" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading_waits.WaitTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,17 +114,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryAdsTests.testCloseButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTests.testUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entryads.*" />
+          <option name="PATTERN" value="dynamicLoading_waits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="entryads" />
-      <option name="MAIN_CLASS_NAME" value="entryads.EntryAdsTests" />
-      <option name="METHOD_NAME" value="testCloseButton" />
+      <option name="PACKAGE_NAME" value="dynamicLoading_waits" />
+      <option name="MAIN_CLASS_NAME" value="dynamicLoading_waits.WaitTests" />
+      <option name="METHOD_NAME" value="testUntilHidden" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WaitTests" />
+        <item itemvalue="TestNG.WaitTests.testUntilHidden" />
         <item itemvalue="TestNG.ContextMenuTests.testContextMenu (1)" />
         <item itemvalue="TestNG.ContextMenuTests.testContextMenu" />
         <item itemvalue="TestNG.ContextMenuTests" />
-        <item itemvalue="TestNG.EntryAdsTests.testCloseButton" />
-        <item itemvalue="TestNG.EntryAdsTests" />
       </list>
     </recent_temporary>
   </component>

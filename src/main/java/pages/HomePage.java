@@ -1,12 +1,9 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import waitStartegiesPages.DynamicLoadingPage;
 
-import java.util.List;
 public class HomePage {
     private WebDriver driver ;
 
@@ -82,6 +79,12 @@ public class HomePage {
     {
         clickLink("Context Menu");
         return new ContextMenuPage(driver);
+    }
+
+    public DynamicLoadingPage clickDynamicLoading(){
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+
     }
 
 
