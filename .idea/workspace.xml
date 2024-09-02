@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86946db5-b532-4143-8247-8730513cc650" name="Changes" comment="Message2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/FileUploadTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entryads/EntryAdsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entryads/EntryAdsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +43,35 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.EntryAdsTests.testCloseButton">
-    <configuration name="AlertsTests.confirmAlertTest_dismiss" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContextMenuTests.testContextMenu (1)">
+    <configuration name="ContextMenuTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="hovers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="confirmAlertTest_dismiss" />
+      <option name="PACKAGE_NAME" value="hovers" />
+      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextMenuTests.testContextMenu (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hovers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hovers" />
+      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
+      <option name="METHOD_NAME" value="testContextMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,17 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertsTests.promptAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContextMenuTests.testContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="alerts.*" />
+          <option name="PATTERN" value="hovers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="promptAlertTest" />
+      <option name="PACKAGE_NAME" value="hovers" />
+      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
+      <option name="METHOD_NAME" value="testContextMenu" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,31 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
-      <option name="METHOD_NAME" value="testFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContextMenuTests.testContextMenu (1)" />
+        <item itemvalue="TestNG.ContextMenuTests.testContextMenu" />
+        <item itemvalue="TestNG.ContextMenuTests" />
         <item itemvalue="TestNG.EntryAdsTests.testCloseButton" />
         <item itemvalue="TestNG.EntryAdsTests" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
-        <item itemvalue="TestNG.AlertsTests.promptAlertTest" />
-        <item itemvalue="TestNG.AlertsTests.confirmAlertTest_dismiss" />
       </list>
     </recent_temporary>
   </component>
