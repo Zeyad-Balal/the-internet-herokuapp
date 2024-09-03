@@ -43,24 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.WaitTests">
-    <configuration name="ContextMenuTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hovers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hovers" />
-      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.JavaScriptTests.testInfiniteScroll">
     <configuration name="ContextMenuTests.testContextMenu (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -79,17 +62,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextMenuTests.testContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptTests.testInfiniteScroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hovers.*" />
+          <option name="PATTERN" value="javaScriptExe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hovers" />
-      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
-      <option name="METHOD_NAME" value="testContextMenu" />
+      <option name="PACKAGE_NAME" value="javaScriptExe" />
+      <option name="MAIN_CLASS_NAME" value="javaScriptExe.JavaScriptTests" />
+      <option name="METHOD_NAME" value="testInfiniteScroll" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptTests.tetsJsScrolling" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaScriptExe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaScriptExe" />
+      <option name="MAIN_CLASS_NAME" value="javaScriptExe.JavaScriptTests" />
+      <option name="METHOD_NAME" value="tetsJsScrolling" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavaScriptTests.testInfiniteScroll" />
+        <item itemvalue="TestNG.JavaScriptTests.tetsJsScrolling" />
         <item itemvalue="TestNG.WaitTests" />
         <item itemvalue="TestNG.WaitTests.testUntilHidden" />
         <item itemvalue="TestNG.ContextMenuTests.testContextMenu (1)" />
-        <item itemvalue="TestNG.ContextMenuTests.testContextMenu" />
-        <item itemvalue="TestNG.ContextMenuTests" />
       </list>
     </recent_temporary>
   </component>

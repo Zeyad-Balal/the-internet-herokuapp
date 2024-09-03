@@ -87,6 +87,17 @@ public class HomePage {
 
     }
 
+    public LargeAndDeepDomPage clickDomPage()
+    {
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+ public InfiniteScrollPage clickInfiniteScroll()
+    {
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
+    }
+
 
 
 
