@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utils.MultipleWindows;
 import waitStartegiesPages.DynamicLoadingPage;
 
 public class HomePage {
@@ -96,6 +97,12 @@ public class HomePage {
     {
         clickLink("Infinite Scroll");
         return new InfiniteScrollPage(driver);
+    }
+
+    public MultipleWindows clickMultiWindows()
+    {
+        clickLink("Multiple Windows");
+        return  new MultipleWindows(driver);
     }
 
 

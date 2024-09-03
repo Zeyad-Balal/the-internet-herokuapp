@@ -7,6 +7,8 @@
     <list default="true" id="86946db5-b532-4143-8247-8730513cc650" name="Changes" comment="Message2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="TestNG.JavaScriptTests.testInfiniteScroll">
-    <configuration name="ContextMenuTests.testContextMenu (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hovers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hovers" />
-      <option name="MAIN_CLASS_NAME" value="hovers.ContextMenuTests" />
-      <option name="METHOD_NAME" value="testContextMenu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.NavigationTest.testNavigators">
     <configuration name="JavaScriptTests.testInfiniteScroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -98,6 +82,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NavigationTest.testNavigator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigations" />
+      <option name="MAIN_CLASS_NAME" value="navigations.NavigationTest" />
+      <option name="METHOD_NAME" value="testNavigator" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NavigationTest.testNavigators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="navigations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="navigations" />
+      <option name="MAIN_CLASS_NAME" value="navigations.NavigationTest" />
+      <option name="METHOD_NAME" value="testNavigators" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WaitTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <extension name="coverage">
@@ -115,31 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitTests.testUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamicLoading_waits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dynamicLoading_waits" />
-      <option name="MAIN_CLASS_NAME" value="dynamicLoading_waits.WaitTests" />
-      <option name="METHOD_NAME" value="testUntilHidden" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NavigationTest.testNavigators" />
+        <item itemvalue="TestNG.NavigationTest.testNavigator" />
         <item itemvalue="TestNG.JavaScriptTests.testInfiniteScroll" />
         <item itemvalue="TestNG.JavaScriptTests.tetsJsScrolling" />
         <item itemvalue="TestNG.WaitTests" />
-        <item itemvalue="TestNG.WaitTests.testUntilHidden" />
-        <item itemvalue="TestNG.ContextMenuTests.testContextMenu (1)" />
       </list>
     </recent_temporary>
   </component>

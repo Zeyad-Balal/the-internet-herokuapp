@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pages.HomePage;
 import org.testng.annotations.*;
+import utils.WindowManager;
 
 public class BaseTests {
     private WebDriver driver;
@@ -17,6 +18,12 @@ public class BaseTests {
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
 
+    }
+
+
+    public WindowManager getWindowManager()
+    {
+        return new WindowManager(driver);
     }
 
 
